@@ -1,5 +1,8 @@
 package Classes;
 
+import Classes.Record.Record;
+import Classes.Static.StaticMethods;
+
 public class Main {
     public static void main(String[] args) {
         StaticMethods staticMethods = new StaticMethods(1, 2);

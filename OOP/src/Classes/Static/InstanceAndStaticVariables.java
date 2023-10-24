@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Static;
 
 
 public class InstanceAndStaticVariables {

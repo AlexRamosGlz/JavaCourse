@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Static;
 
 public class StaticMethods {
     private int nonStaticMember;
@@ -19,7 +19,7 @@ public class StaticMethods {
         /**
          *  Inside static method we CAN'T USE the `this` keyword
          */
-        // this.nonStaticMethod(); -> Error: 'Classes.StaticMethods.this' cannot be referenced from a static context
+        // this.nonStaticMethod(); -> Error: 'Classes.Static.StaticMethods.this' cannot be referenced from a static context
         System.out.println("sum= " + (firstNumber + secondNumber));
     }
 
