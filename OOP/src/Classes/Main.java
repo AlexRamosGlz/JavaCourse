@@ -5,7 +5,7 @@ import Classes.Static.StaticMethods;
 
 public class Main {
     public static void main(String[] args) {
-        StaticMethods staticMethods = new StaticMethods(1, 2);
+        //StaticMethods staticMethods = new StaticMethods(1, 2);
 
         Record record = new Record(123, "some string", true);
         int number = record.field1(); // returns 123
