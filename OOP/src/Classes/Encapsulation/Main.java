@@ -24,5 +24,9 @@ public class Main {
         nonSecurePlayer.loseHealth(11);
         System.out.println("Remaining health = " + nonSecurePlayer.healthRemaning());
 
+        // ::::::::::::::::::::::::::::::: Secure Player ::::::::::::::::::::::::::::::
+        SecurePlayer player =  new SecurePlayer("Alex");
+        System.out.println("Initial health is " + player.healthRemaning());
+
     }
 }
