@@ -11,6 +11,6 @@ package StructuralPatterns.Adapter.Structure;
 public class Service {
     public String serviceMethod(Object data){
         //Some logic business and then returns something
-        return "something"
+        return "something";
     }
 }

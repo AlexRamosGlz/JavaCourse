@@ -21,7 +21,7 @@ public class Adapter implements IClientInterface {
     }
 
     public String convertToServiceFormat(String data) {
-        StringBuilder translatedData = new StringBuilder("Translated Data");
+        String translatedData = data + "Something else";
         return translatedData;
     }
 }
