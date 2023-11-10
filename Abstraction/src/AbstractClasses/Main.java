@@ -14,9 +14,14 @@ public class Main {
         animals.add(new Dog("German Shepard", "Big", 11));
         animals.add(new Fish("Goldfish", "small", 1));
         animals.add(new Dog("Pitbull", "Big", 13));
+        animals.add(new Horse("Clydesdale", "Big", 90));
 
         for(var animal: animals) {
             doAnimalStuff(animal);
+            // Checking if an element of the animals ArrayList is an instance of Mammal
+            if(animal instanceof Mammal currentMammal) {
+                currentMammal.shedHair();
+            }
         }
     }
 
