@@ -89,4 +89,13 @@ abstract public class Animal {
     public abstract void move(String speed);
 
     public abstract void makeNoise();
+
+    /**
+     * final
+     *
+     * methods with `final` keyword can't be overrided
+     */
+    public final String getExplicitType() {
+        return getClass().getSimpleName() + "( " + type + " )";
+    }
 }
